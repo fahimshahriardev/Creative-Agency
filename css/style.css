@@ -1,0 +1,706 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*========= Header css start */ 
+.navigation{
+	    background-color: white;
+    padding: 15px;
+}
+.logo{
+	width: 115px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    padding: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.7);
+    background-color: #eeeeee;
+    border-radius: 15px;
+    padding: 10px;
+}
+/*========= Header css end============= */ 
+
+
+/*========= Hero Section css start============= */ 
+
+.hero{
+	background-color: #F5F5F5;
+}
+.cr_text{
+	color: #FFFFFF;
+    font-size: 400px;
+    font-weight: 800;
+}
+.agency_text{
+	font-size: 100px;
+	font-weight: 800;
+}
+.cr_div{
+	position: relative;
+	margin-top: 90px;
+}
+.agency_div{
+	position: absolute;
+	top: 290px;
+    left: 100px;
+}
+.watch_div{
+margin-top: 0px;
+margin-bottom: 200px;
+font-weight:300;
+}
+.video_button {
+    font-size: 60px;
+
+}
+.fa:hover{
+	color: red;
+}
+.watch_text{
+	margin-left: 20px;
+    margin-top: 20px;
+}
+
+.mocup_img{
+	position: relative;
+    width: 600px;
+    left: -95px;
+    z-index: 10;
+    top: 100px;
+}
+.side_img{
+position: absolute;
+    width: 335px;
+    left: 180px;
+    z-index: 5;
+    top: 100px;
+}
+
+/*========= Hero Section css end============= */ 
+
+
+
+/*========= Service Section css start============= */ 
+
+.service{
+	background-color: #EC2678;
+	color: white;
+}
+.service_header_text{
+	color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+.service_icon{
+	font-size: 30px;
+    color: white;
+}
+.service_para{
+font-weight: 200;
+}
+.service_hover:hover{
+background-color: black;
+padding: 10px;
+}
+.service_second{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.auto_service{
+    margin-left: -25px;
+    margin-bottom: 80px;
+}
+.find_btn{
+	background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.find_btn:hover{
+	background-color: white;
+	border: 1px solid white;
+	color: black;
+}
+
+/*========= Service Section css end============= */ 
+
+
+/*========= portfolio Section css start============= */ 
+
+.portfolio_header_text{
+	color: #333333;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    font-size: 60px;
+}
+.port_holder{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.port_div {
+  position: relative;
+  width: 50%;
+}
+
+.port_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.port_middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+
+.port_div:hover .port_image {
+  opacity: 0.5;
+
+}
+
+.port_div:hover .port_middle {
+  opacity: 1;
+
+}
+
+.port_text {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+/*========= portfolio Section css end============= */ 
+
+
+
+/*========= agency  Section css start============= */ 
+
+
+.parallax {
+  background-image: url("../img/bg.jpeg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax_header{
+	text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.agency_div1{
+	background-color: #6A00CE;
+	color: white;
+	padding: 55px 43px;
+	margin-bottom: 100px;
+}
+.agency_div1_header{
+	font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.agency_div1_para{
+	font-size: 14px;
+    font-weight: 200;
+}
+
+
+/*========= agency  Section css end============= */ 
+
+
+
+/*========= team  Section css start============= */ 
+
+.team_header{
+	text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 60px;
+   
+}
+.ma_text{
+	position: relative;
+}
+
+.ma_text_header{
+	color: #F5F5F5;
+    font-size: 400px;
+    font-weight: 900;
+}
+.master_text{
+	position: absolute;
+	top: -285px;
+    left: 188px;
+}
+.master_text_head{
+	color: #E71F45;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 66px;
+}
+.master_text_para{
+	font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.button_div{
+	background:url(../img/img1.jpg)no-repeat;
+	background-size: cover;
+	padding: 80px;
+	height: 280px;
+}
+.join_btn{
+	background-color: #E71F45;
+    border: 1px solid #E71F45;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 15px;
+}
+.button_diV_head{
+	    font-size: 40px;
+    font-weight: 800;
+}
+.button_div_para{
+	font-size: 14px;
+    font-weight: 400;
+}
+.team_right{
+	margin-top: 102px;
+    box-shadow: 5px 8px 12px black;
+
+}
+.team_right_text{
+	padding: 55px;
+}
+
+
+
+
+/*========= team  Section css end============= */ 
+
+
+
+/*========= join  Section css start============= */ 
+.join{
+	background-color: #231F20;
+}
+.join_header{
+	text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 60px;
+    color: white;
+    margin-bottom: 40px;
+   
+}
+.no_padding{
+	padding: 0px;
+}
+.personal_div{
+	background-color: white;
+	padding: 45px 10px;
+}
+.personal_header{
+	font-size: 20px;
+    font-weight: 700;
+}
+.personal_text{
+	font-size: 15px;
+    font-weight: 400;
+}
+.personal_quote {
+    font-size: 13px;
+    font-weight: 400;
+    border-left: 3px solid #E52348;
+    padding: 0px 15px;
+}
+
+.team_btn{
+	background-color: #E52348;
+    border: 1px solid #E52348;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.team_btn:hover{
+	background-color:white;
+	color: black;
+	border:1px solid white; 
+}
+.team_btn_div{
+	margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+
+/*========= join  Section css end============= */ 
+
+
+/*========= testomonial  Section css start============= */ 
+
+.testomonial_header{
+	text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 40px;
+   
+}
+.carousel {
+    position: relative;
+    padding: 53px 60px;
+    box-shadow: 1px 3px 8px black;
+}
+.carousel_para1{
+	font-size: 15px;
+    font-weight: 300;
+}
+.carousel_author{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+}
+.carousel_des{
+font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+/*========= testomonial  Section css end============= */ 
+
+
+/*========= partner  Section css start============= */ 
+
+.partner_head{
+		text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/*========= partner  Section css end============= */ 
+
+
+
+
+/*========= newsletter  Section css start============= */ 
+
+.newsletter{
+	background:url(../img/newsletter.png)no-repeat;
+	background-size: cover;
+	padding: 40px;
+	margin-top: 45px;
+}
+.newsletter_head{
+	font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.form-group {
+    margin-bottom: 1rem;
+    margin-top: 40px;
+}
+.cstm_subs_btn{
+	background-color: white;
+    border: 1px solid white;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.cstm_subs_btn:hover{
+	background-color: #E1D3F4;
+	 border: 1px solid #E1D3F4;
+}
+
+
+
+/*========= newsletter  Section css end============= */ 
+
+
+/*========= footer  Section css start============= */ 
+
+.footer{
+	background-color: #231F20;
+	color: white;
+}
+.follow_text{
+	font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer_left_menu{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+ul li{
+	list-style: none;
+
+}
+.footer_align{
+	font-size: 14px;
+    font-weight: 300;
+    margin-left: -38px;
+    line-height: 30px;
+}
+.footer_icon{
+	font-size: 22px;
+}
+
+.footer_two{
+	background-color: #000000;
+	color: white;
+}
+.footer_two_text{
+	font-size: 14px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.footer_three{
+	background-color: white;
+	padding: 15px;
+}
+.footer_english{
+	color: black;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+.flag_row{
+	margin-left: 118px;
+}
+.footer_spain{
+	color: black;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+/*========= footer  Section css end============= */ 
+
+
+
+/*========= floating  Section css start============= */ 
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 13px;
+  box-shadow: 1px 1px 5px black;
+}
+
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: white;
+  color: red!important;
+}
+
+.facebook {
+  background: white;
+  color: black!important;
+}
+
+.vimeo {
+  background: white;
+  color: black!important;
+}
+
+.envelope {
+  background: white;
+  color: black!important;
+}
+
+.linkedin {
+  background: white;
+  color: black!important;
+}
+
+.instagram {
+  background: white;
+  color: black!important;
+}
+
+
+/*========= floating  Section css end============= */ 
+
+
+
+
